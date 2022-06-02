@@ -24,13 +24,23 @@ This tools enables the possibility to package an application in a container.
 | [Podman](https://github.com/containers/podman) | Allow the creation of a POD(subset of containers) in your local environment. Is a good alternative to Docker if this feature is important to you. | ![Podman](https://img.shields.io/github/stars/containers/podman?style=for-the-badge)
 | [Kaniko](https://github.com/GoogleContainerTools/kaniko) | Designed by Google, allows the **build and push** of Docker images (you cannot run it) using a Kubernetes cluster without higher privileges. It´s very fast and cache all the layers in the container registry that executes a `RUN` or a `COPY` command. Recommended for production environments. | ![Kaniko](https://img.shields.io/github/stars/GoogleContainerTools/kaniko?style=for-the-badge)
 
+# Terraform tools
+Tools created to simplify the manage of Terraform or enhance the security of their code.
 
 
+| Tool | Description | Stars
+|:---|:---|:---
+| [Atlantis](https://github.com/runatlantis/atlantis) | Tool to automate the deploy of Terraform code using Pull Request. It has compatibility with Gitlab, Github and Bitbucket webhooks. | ![Atlantis](https://img.shields.io/github/stars/runatlantis/atlantis?style=for-the-badge)
+| [Checkov](https://github.com/bridgecrewio/checkov) | Is a static code analysis tool for IaC. Has by default over 1000 policies to cover security and be compliance with the recommendations of the Cloud Providers. Has integration with more services as Helm Charts, Dockerfiles, CloudFormatio, etc. | ![Checkov](https://img.shields.io/github/stars/bridgecrewio/checkov?style=for-the-badge)
+| [Terrascan](https://github.com/tenable/terrascan) | Is a static code analyzer for Terraform. Detects IaC misconfigurations, security vulnerabilities and other important features. | ![Terrascan](https://img.shields.io/github/stars/tenable/terrascan?style=for-the-badge)
+| [Terragrunt](https://github.com/gruntwork-io/terragrunt) | Is a thin wrapper for Terraform that provides extra tools as dry-run if you use multiple modules. | ![Terragrunt](https://img.shields.io/github/stars/gruntwork-io/terragrunt?style=for-the-badge)
+| [Infracost](https://github.com/infracost/infracost) | Tool that estimates the cost of your infrastructure written using Terraform. If you integrates it on a CI workflow, it will show the diff between the old Terraform code and the New | ![Infracost](https://img.shields.io/github/stars/infracost/infracost?style=for-the-badge)
+| [Terratest](https://github.com/gruntwork-io/terratest) | Go library that allow the test your infrastructure code written in Terraform | ![Terratest](https://img.shields.io/github/stars/gruntwork-io/terragrunt?style=for-the-badge)
+| [TFLint](https://github.com/terraform-linters/tflint) | Enhancer linter for Terraform that add additional features as enforce best practices about naming conventions and find possible erros as ilegal instance types for Major Cloud Providers | ![TFLint](https://img.shields.io/github/stars/terraform-linters/tflint?style=for-the-badge)
 
+As an honorific mention, I recommend you to subscribe to the weekly newsletter of [Anton Babenko](https://github.com/antonbabenko) called https://weekly.tf/ to be aware of the latest news about Terraform.
 
-
-
-
+If you want to learn more about Terraform best practices, I recommend you this [post](https://medium.com/devops-mojo/terraform-best-practices-top-best-practices-for-terraform-configuration-style-formatting-structure-66b8d938f00c) too.
 
 # Contributing
 Feel free to open a pull request in case you want to add an awesome tool!
